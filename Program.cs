@@ -8,3 +8,10 @@ string[] array2 = ["Вася", "Олег", "8", "12", "Дмитрий"];
 
 Console.WriteLine("Ваш первоначальный массив : " + string.Join(",", array2));
 
+
+for (int i = 0; i < array2.Length; i++)
+{
+
+}
+
+

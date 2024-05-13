@@ -16,5 +16,5 @@ for (int i = 0; i < array2.Length; i++)
         Array.Resize(ref array2, 3);
     }
 }
-
+Console.WriteLine("Результат : " + string.Join(",", array2));
 

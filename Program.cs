@@ -11,7 +11,10 @@ Console.WriteLine("Ваш первоначальный массив : " + string
 
 for (int i = 0; i < array2.Length; i++)
 {
-
+    if (array2[i].Length > 3)
+    {
+        Array.Resize(ref array2, 3);
+    }
 }
 
 
